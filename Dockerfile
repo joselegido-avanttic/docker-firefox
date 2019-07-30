@@ -1,4 +1,4 @@
-FROM oraclelinux:6
+FROM oraclelinux:7
 
 RUN yum install -y libXtst libXrender sudo firefox 
 RUN yum install -y icedtea-web
